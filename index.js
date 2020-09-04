@@ -14,3 +14,6 @@ function greet(time) {
   
 }
 /* Write your implementation of displayMessage() */
+function greet(hourIn24) {
+  if
+}
