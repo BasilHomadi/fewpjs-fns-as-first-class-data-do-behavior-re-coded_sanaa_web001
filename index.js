@@ -11,17 +11,17 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time) {
-  
-}
-/* Write your implementation of displayMessage() */
-function greet(hourIn24) {
-  if (hourIn24 < 12) {
+  if (time < 12) {
     return "Good Morning"
   }
-  else if (hourIn24 >= 12 && hourIn24 < 17) {
+  else if (time >= 12 && time < 17) {
     return "Good Afternoon"
   }
-  else if (hourIn24 >= 17) {
+  else if (time >= 17) {
     return "Good Evening"
-  }
+  }  
+}
+/* Write your implementation of displayMessage() */
+function displayMessage(string) {
+  
 }
