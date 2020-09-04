@@ -15,5 +15,13 @@ function greet(time) {
 }
 /* Write your implementation of displayMessage() */
 function greet(hourIn24) {
-  if
+  if (hourIn24 < 12) {
+    return "Good Morning"
+  }
+  else if (hourIn24 >= 12 && hourIn24 < 17) {
+    return "Good Afternoon"
+  }
+  else if (hourIn24 >= 17) {
+    return "Good Evening"
+  }
 }
