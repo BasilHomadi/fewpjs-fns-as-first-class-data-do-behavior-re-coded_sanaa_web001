@@ -11,6 +11,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time) {
+  
   if (time < 12) {
     return "Good Morning"
   }
